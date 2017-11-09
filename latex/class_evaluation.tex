@@ -1,0 +1,102 @@
+\hypertarget{class_evaluation}{\section{Evaluation Class Reference}
+\label{class_evaluation}\index{Evaluation@{Evaluation}}
+}
+
+
+Permet de créer et d'interagir avec des évaluations.  
+
+
+
+
+{\ttfamily \#include $<$evaluation.\+h$>$}
+
+
+
+Collaboration diagram for Evaluation\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{class_evaluation__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_evaluation_afeed6d48b3009cfadb5d56acacd5af31}{Evaluation} (\hyperlink{class_section}{Section} $\ast$lien)
+\item 
+void \hyperlink{class_evaluation_a9f6db9e9282e6d1ecd00785db0538b4d}{input\+Evaluation} ()
+\item 
+void \hyperlink{class_evaluation_ab7114383e258c7d0c8b5e465e0939663}{display\+Evaluation} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_section}{Section} $\ast$ \hyperlink{class_evaluation_a5d6336cee965270904fe3d91c6d484a1}{parent}
+\item 
+\hyperlink{class_matiere}{Matiere} $\ast$ \hyperlink{class_evaluation_ad5f4d301c80076389e2ea31dfd7f09b1}{p\+La\+Matiere}
+\item 
+\hyperlink{class_etudiant}{Etudiant} $\ast$ \hyperlink{class_evaluation_a38afbf18ba9d4cd79055807d13c88c9f}{p\+Leleve}
+\item 
+int \hyperlink{class_evaluation_ae000ec143562ed56975018bf82b13b5c}{semestre}
+\item 
+vector$<$ \hyperlink{class_note}{Note} $>$ \hyperlink{class_evaluation_ac3f2543471f61f13fdaab768960f31fc}{vect\+Notes}
+\item 
+string \hyperlink{class_evaluation_a3babca319a639a0f4811158cbbc47eb9}{nom\+Eval}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Permet de créer et d'interagir avec des évaluations. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_evaluation_afeed6d48b3009cfadb5d56acacd5af31}{\index{Evaluation@{Evaluation}!Evaluation@{Evaluation}}
+\index{Evaluation@{Evaluation}!Evaluation@{Evaluation}}
+\subsubsection[{Evaluation}]{\setlength{\rightskip}{0pt plus 5cm}Evaluation\+::\+Evaluation (
+\begin{DoxyParamCaption}
+\item[{{\bf Section} $\ast$}]{lien}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_afeed6d48b3009cfadb5d56acacd5af31}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_evaluation_ab7114383e258c7d0c8b5e465e0939663}{\index{Evaluation@{Evaluation}!display\+Evaluation@{display\+Evaluation}}
+\index{display\+Evaluation@{display\+Evaluation}!Evaluation@{Evaluation}}
+\subsubsection[{display\+Evaluation}]{\setlength{\rightskip}{0pt plus 5cm}void Evaluation\+::display\+Evaluation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_ab7114383e258c7d0c8b5e465e0939663}
+\hypertarget{class_evaluation_a9f6db9e9282e6d1ecd00785db0538b4d}{\index{Evaluation@{Evaluation}!input\+Evaluation@{input\+Evaluation}}
+\index{input\+Evaluation@{input\+Evaluation}!Evaluation@{Evaluation}}
+\subsubsection[{input\+Evaluation}]{\setlength{\rightskip}{0pt plus 5cm}void Evaluation\+::input\+Evaluation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_a9f6db9e9282e6d1ecd00785db0538b4d}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_evaluation_a3babca319a639a0f4811158cbbc47eb9}{\index{Evaluation@{Evaluation}!nom\+Eval@{nom\+Eval}}
+\index{nom\+Eval@{nom\+Eval}!Evaluation@{Evaluation}}
+\subsubsection[{nom\+Eval}]{\setlength{\rightskip}{0pt plus 5cm}string Evaluation\+::nom\+Eval\hspace{0.3cm}{\ttfamily [private]}}}\label{class_evaluation_a3babca319a639a0f4811158cbbc47eb9}
+\hypertarget{class_evaluation_a5d6336cee965270904fe3d91c6d484a1}{\index{Evaluation@{Evaluation}!parent@{parent}}
+\index{parent@{parent}!Evaluation@{Evaluation}}
+\subsubsection[{parent}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Section}$\ast$ Evaluation\+::parent\hspace{0.3cm}{\ttfamily [private]}}}\label{class_evaluation_a5d6336cee965270904fe3d91c6d484a1}
+\hypertarget{class_evaluation_ad5f4d301c80076389e2ea31dfd7f09b1}{\index{Evaluation@{Evaluation}!p\+La\+Matiere@{p\+La\+Matiere}}
+\index{p\+La\+Matiere@{p\+La\+Matiere}!Evaluation@{Evaluation}}
+\subsubsection[{p\+La\+Matiere}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matiere}$\ast$ Evaluation\+::p\+La\+Matiere\hspace{0.3cm}{\ttfamily [private]}}}\label{class_evaluation_ad5f4d301c80076389e2ea31dfd7f09b1}
+\hypertarget{class_evaluation_a38afbf18ba9d4cd79055807d13c88c9f}{\index{Evaluation@{Evaluation}!p\+Leleve@{p\+Leleve}}
+\index{p\+Leleve@{p\+Leleve}!Evaluation@{Evaluation}}
+\subsubsection[{p\+Leleve}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Etudiant}$\ast$ Evaluation\+::p\+Leleve\hspace{0.3cm}{\ttfamily [private]}}}\label{class_evaluation_a38afbf18ba9d4cd79055807d13c88c9f}
+\hypertarget{class_evaluation_ae000ec143562ed56975018bf82b13b5c}{\index{Evaluation@{Evaluation}!semestre@{semestre}}
+\index{semestre@{semestre}!Evaluation@{Evaluation}}
+\subsubsection[{semestre}]{\setlength{\rightskip}{0pt plus 5cm}int Evaluation\+::semestre\hspace{0.3cm}{\ttfamily [private]}}}\label{class_evaluation_ae000ec143562ed56975018bf82b13b5c}
+\hypertarget{class_evaluation_ac3f2543471f61f13fdaab768960f31fc}{\index{Evaluation@{Evaluation}!vect\+Notes@{vect\+Notes}}
+\index{vect\+Notes@{vect\+Notes}!Evaluation@{Evaluation}}
+\subsubsection[{vect\+Notes}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Note}$>$ Evaluation\+::vect\+Notes\hspace{0.3cm}{\ttfamily [private]}}}\label{class_evaluation_ac3f2543471f61f13fdaab768960f31fc}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{evaluation_8h}{evaluation.\+h}\end{DoxyCompactItemize}

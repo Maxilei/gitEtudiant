@@ -1,0 +1,6 @@
+<map id="Evaluation" name="Evaluation">
+<area shape="rect" id="node2" href="$class_etudiant.html" title="Permet d&#39;interagir avec les élèves, avoir leurs noms etc... " alt="" coords="5,95,79,121"/>
+<area shape="rect" id="node3" href="$class_matiere.html" title="Permet de créer et d&#39;interagir avec les matières. " alt="" coords="103,95,173,121"/>
+<area shape="rect" id="node4" href="$class_section.html" title="Permet le liens avec Section pour en utiliser des éléments. " alt="" coords="211,95,281,121"/>
+<area shape="rect" id="node5" href="$class_application.html" title="ensemble des éléments et action du menu principal " alt="" coords="201,5,291,32"/>
+</map>
